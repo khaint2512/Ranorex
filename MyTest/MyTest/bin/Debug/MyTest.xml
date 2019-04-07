@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTest2">
+             <summary>
+            The MyTest2 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.MyTest2.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTest2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTest2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.MyTest2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTest2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.MyTest2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTest2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.HọcLiệuSachMềmGoogleChrome">
+            <summary>
+            The HọcLiệuSachMềmGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.HọcLiệuSachMềm">
+            <summary>
+            The HọcLiệuSachMềm folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.GiaoBaiTập">
+            <summary>
+            The GiaoBaiTập item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.GiaoBaiTậpInfo">
+            <summary>
+            The GiaoBaiTập item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsHoclieuSachmemVnQuestionSet">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSet folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ApplicationUnderTestAppFolder.ContentBound">
+            <summary>
+            The ContentBound folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSetFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsHoclieuSachmemVnQuestionSet  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.ModalBody">
+            <summary>
+            The ModalBody item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.ModalBodyInfo">
+            <summary>
+            The ModalBody item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.FormGroup">
+            <summary>
+            The FormGroup item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.FormGroupInfo">
+            <summary>
+            The FormGroup item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarkedNgStarInser">
+            <summary>
+            The NgOptionNgOptionMarkedNgStarInser item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarkedNgStarInserInfo">
+            <summary>
+            The NgOptionNgOptionMarkedNgStarInser item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NoItemsFound">
+            <summary>
+            The NoItemsFound item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NoItemsFoundInfo">
+            <summary>
+            The NoItemsFound item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text3">
+            <summary>
+            The Text3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text3Info">
+            <summary>
+            The Text3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.TestClass">
+            <summary>
+            The TestClass item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.TestClassInfo">
+            <summary>
+            The TestClass item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number">
+            <summary>
+            The Number item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NumberInfo">
+            <summary>
+            The Number item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number1">
+            <summary>
+            The Number1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number1Info">
+            <summary>
+            The Number1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.LabelTagTrộnCauHỏi">
+            <summary>
+            The LabelTagTrộnCauHỏi item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.LabelTagTrộnCauHỏiInfo">
+            <summary>
+            The LabelTagTrộnCauHỏi item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.FormCheck">
+            <summary>
+            The FormCheck item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.FormCheckInfo">
+            <summary>
+            The FormCheck item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ContentBoundFolder">
+            <summary>
+            The ContentBoundFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ContentBoundFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContentBound  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.BaiTậpCuốiTuầnTiếngViệt3Tập1">
+            <summary>
+            The BaiTậpCuốiTuầnTiếngViệt3Tập1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.BaiTậpCuốiTuầnTiếngViệt3Tập1Info">
+            <summary>
+            The BaiTậpCuốiTuầnTiếngViệt3Tập1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Lớp3">
+            <summary>
+            The Lớp3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Lớp3Info">
+            <summary>
+            The Lớp3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Col9NodeName">
+            <summary>
+            The Col9NodeName item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Col9NodeNameInfo">
+            <summary>
+            The Col9NodeName item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.LớpHọcCủaToi">
+            <summary>
+            The LớpHọcCủaToi item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.LớpHọcCủaToiInfo">
+            <summary>
+            The LớpHọcCủaToi item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.PHONICS">
+            <summary>
+            The PHONICS item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.PHONICSInfo">
+            <summary>
+            The PHONICS item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.Kindergarten">
+            <summary>
+            The Kindergarten item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder.KindergartenInfo">
+            <summary>
+            The Kindergarten item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder">
+            <summary>
+            The HọcLiệuSachMềmGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềmGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.BaiTậpThựcHanhKiểmThửMonINT31172">
+            <summary>
+            The BaiTậpThựcHanhKiểmThửMonINT31172 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.BaiTậpThựcHanhKiểmThửMonINT31172Info">
+            <summary>
+            The BaiTậpThựcHanhKiểmThửMonINT31172 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.QuayLại">
+            <summary>
+            The QuayLại item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.QuayLạiInfo">
+            <summary>
+            The QuayLại item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.Pane1">
+            <summary>
+            The Pane1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmGoogleChromeAppFolder.Pane1Info">
+            <summary>
+            The Pane1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder">
+            <summary>
+            The HọcLiệuSachMềmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềm  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.BtnGroupDropDoItem">
+            <summary>
+            The BtnGroupDropDoItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.BtnGroupDropDoItemInfo">
+            <summary>
+            The BtnGroupDropDoItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.CreateAssignmentModal1">
+            <summary>
+            The CreateAssignmentModal1 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.HọcLiệuSachMềmAppFolder.ContentBound">
+            <summary>
+            The ContentBound folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder">
+            <summary>
+            The CreateAssignmentModal1Folder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateAssignmentModal1  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.CreateAssignmentModal">
+            <summary>
+            The CreateAssignmentModal item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.CreateAssignmentModalInfo">
+            <summary>
+            The CreateAssignmentModal item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.ModalBody">
+            <summary>
+            The ModalBody item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.ModalBodyInfo">
+            <summary>
+            The ModalBody item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Kindergarten">
+            <summary>
+            The Kindergarten item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.KindergartenInfo">
+            <summary>
+            The Kindergarten item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NoItemsFound">
+            <summary>
+            The NoItemsFound item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NoItemsFoundInfo">
+            <summary>
+            The NoItemsFound item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Number">
+            <summary>
+            The Number item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NumberInfo">
+            <summary>
+            The Number item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Number1">
+            <summary>
+            The Number1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.Number1Info">
+            <summary>
+            The Number1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.LabelTagTrộnCauHỏi">
+            <summary>
+            The LabelTagTrộnCauHỏi item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.LabelTagTrộnCauHỏiInfo">
+            <summary>
+            The LabelTagTrộnCauHỏi item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NgValueContainer">
+            <summary>
+            The NgValueContainer item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NgValueContainerInfo">
+            <summary>
+            The NgValueContainer item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NgOptionNgOptionMarkedNgStarInser">
+            <summary>
+            The NgOptionNgOptionMarkedNgStarInser item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.CreateAssignmentModal1Folder.NgOptionNgOptionMarkedNgStarInserInfo">
+            <summary>
+            The NgOptionNgOptionMarkedNgStarInser item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.ContentBoundFolder1">
+            <summary>
+            The ContentBoundFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContentBound  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.GiaoBaiTập">
+            <summary>
+            The GiaoBaiTập item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.GiaoBaiTậpInfo">
+            <summary>
+            The GiaoBaiTập item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.FaFaLgFaHome">
+            <summary>
+            The FaFaLgFaHome item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.FaFaLgFaHomeInfo">
+            <summary>
+            The FaFaLgFaHome item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.BaiTậpCuốiTuầnTiếngAnh3Tập1">
+            <summary>
+            The BaiTậpCuốiTuầnTiếngAnh3Tập1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.ContentBoundFolder1.BaiTậpCuốiTuầnTiếngAnh3Tập1Info">
+            <summary>
+            The BaiTậpCuốiTuầnTiếngAnh3Tập1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

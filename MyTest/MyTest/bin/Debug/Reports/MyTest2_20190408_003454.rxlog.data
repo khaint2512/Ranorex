@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="38.61s"
+		durationms="38607"
+		type="root"
+		rid="a2ba3640b07a81d"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I'm Khai"
+		rxversion="9.0.0.0"
+		host="DESKTOP-85BF6PI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/8/2019 12:34:57 AM"
+		timestampiso="2019-04-07T17:34:57"
+		endtime="4/8/2019 12:35:36 AM"
+		timeoutfactor="1"
+		module="MyTest2">
+		<detail>
+			MyTest2
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.003"
+			timeRelativeToTestModuleStartTime="00:04.004"
+			timeWallClock="00:35:01"
+			time="00:04.003"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.0/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.187"
+			timeRelativeToTestModuleStartTime="00:04.188"
+			timeWallClock="00:35:02"
+			time="00:04.187"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContentBound.Col9NodeName' at 213;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div//ul/li[1]/?/?/div"
+				itempath="div//ul/li[1]/?/?/div"
+				fullname="MyTestRepository.ApplicationUnderTest.ContentBound.Col9NodeName"
+				id="a14972067c2747359556447ab887a137"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\MyTest2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.274"
+			timeRelativeToTestModuleStartTime="00:05.275"
+			timeWallClock="00:35:03"
+			time="00:05.274"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files\CONEXANT\Flow\Flow.exe<br/>Process: 'Flow' (pid 11816)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.0/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\MyTest2.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.606"
+			timeRelativeToTestModuleStartTime="00:38.607"
+			timeWallClock="00:35:36"
+			time="00:38.606"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
